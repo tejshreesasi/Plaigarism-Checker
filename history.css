@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins','sans-serif';
+  }
+
+:root{
+    --bg-color:linear-gradient(118.98deg, #000000 -2.11%, #6737C1 63.58%);
+    --text-color:white;
+}
+html {
+   
+    overflow-x:hidden;
+  }
+
+section{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top:120px;
+    height: 919px;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+body{
+     background-image: url(/static/images/mesh-757.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color:rgb(255, 255, 255);
+    font-weight:900;
+    cursor:default;
+  }
+
+.logoimg {
+    position: absolute;
+    width: 88px;
+    height: 81px;
+    left:50px;
+    top: calc(50% - 81px/2 - 0.5px);
+    z-index: 30;
+}
+  
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 2rem 9%;
+    background:none;
+    height:100px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+  }
+
+  .navbar a {
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    margin-left: 3.5rem;
+
+    transition: .3s;
+    padding: right 30px;
+    font-weight: bold;
+  }
+  .navbar{
+margin-right: 110px;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color:rgba(251, 128, 255, 0.623);
+    transform: scale(0.2);
+    text-shadow: 2rem;
+
+  }
+
+
+.container{
+    position: absolute;
+    top:75px;
+    left: 210px;
+    background-color:rgba(255,255,255,0.13);
+    box-shadow: 2px 2px 2px 2px rgba(255,255,255,0.13);
+    border: 2px solid white;
+    width: 1500px;
+    height:700px;
+    border-radius: 20px;
+    padding: 50px 50px 50px 50px;
+    overflow-y: scroll;
+    }
+
+h2 {
+    position: relative;
+    font-size: 30px ;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    }
+
+.boxes{
+    position: relative;
+    width:90%;
+    height:100px;
+    background:linear-gradient(rgba(255, 255, 255, 0.334), rgba(255, 167, 226, 0.556)); 
+    border: 2px solid white;
+    padding: 20px 10px 10px 30px;
+    margin: 20px 20px 20px 20px ;
+    border-radius: 20px;
+
+}
+

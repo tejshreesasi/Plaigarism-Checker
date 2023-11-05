@@ -1,0 +1,360 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins','sans-serif';
+  }
+
+:root{
+    --bg-color:linear-gradient(118.98deg, #000000 -2.11%, #6737C1 63.58%);
+    --text-color:white;
+}
+html {
+   
+    overflow-x:hidden;
+  }
+
+section{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top:100px;
+    height: 919px;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+
+body{
+  background-image: url(/static/images/blurry-gradient-haikei.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.logo {
+    font-size: 2.5rem;
+    color:black;
+    font-weight:900;
+    cursor:default;
+  }
+
+.logoimg {
+    position: absolute;
+    width: 88px;
+    height: 81px;
+    left:50px;
+    top: calc(50% - 81px/2 - 0.5px);
+    z-index: 30;
+}
+  
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 2rem 9%;
+    background:#c4dcff;
+    height:100px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+  }
+
+  .navbar a {
+    font-size: 1.5rem;
+    color:black;
+    margin-left: 3.5rem;
+    transition: .3s;
+    padding: right 30px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color:lightseagreen;
+    transform: scale(0.2);
+    text-shadow: 2rem;
+
+  }
+
+/* ------------------------navbar----------------*/
+
+.image{
+  position: absolute;
+  top:500px;
+  left:40px;
+  width: 50%;
+  height:700px;
+}
+
+.headingsec{
+   position: absolute;
+   top:30px;
+   left:500px;
+   background-color:rgba(255,255,255,0.13);
+   box-shadow: 2px 2px 2px 2px #000000;
+   border: #000000;
+   width:1000px;
+   height:70px;
+   padding: 10px 100px 20px 400px;
+  border-radius: 20px;
+}
+
+.headingp{
+  position: relative;
+  font-size: 30px ;
+  font-weight: bolder;
+}
+
+.inputforplagarism{
+  position: absolute;
+  top:120px;
+  left:500px;
+  background-color:rgba(255,255,255,0.13);
+  box-shadow: 2px 2px 2px 2px rgba(255,255,255,0.13);
+  border: dashed white;
+  width:1000px;
+  height:700px;
+ border-radius: 20px;
+ padding: 50px 50px 50px 50px;
+}
+
+.pboxes1{
+  position: absolute;
+  top:30px;
+  left:35px;
+  background-color:white;
+  box-shadow: 2px 2px 2px 2px rgba(255,255,255,0.13);
+  border: #000000;
+  width:45%;
+  height:550px;
+  padding: 20px 50px 20px 50px;
+  border-radius: 10px;
+  border: 2px dashed white;
+  align-items: center;
+}
+
+.pboxes2{
+  position: absolute;
+  top:30px;
+  left:520px;
+  background-color:white;
+  box-shadow: 2px 2px 2px 2px rgba(255,255,255,0.13);
+  border: #000000;
+  width:45%;
+  height:550px;
+  padding: 20px 50px 20px 50px;
+  border-radius: 10px;
+  border: 2px dashed white;
+}
+
+.doc{
+  position: relative;
+  height:50%;
+  width:95%;
+  overflow-y: scroll;
+  border-radius: 5px;
+  color: #000000;
+  border: 2px solid #000000;
+
+  
+}
+
+.inputfile::-webkit-file-upload-button{
+  background: black ;
+  color:white;
+  padding:8px 16px;
+  border:None;
+  border-radius: 50px;
+
+}
+
+.inputfile:hover{ 
+  cursor:pointer;
+  background: white;
+  box-shadow: black;
+  transform: scale(1.02);
+  
+}
+
+.inputfile::-webkit-file-upload-button:hover{
+  background: black ;
+  cursor: pointer;
+}
+
+.submitbutton{
+  position: relative;
+ margin-top: 50px;
+ margin-left: 170px;
+}
+
+.submit{
+  position: absolute;
+  left:100px;
+  top:500px;
+   font-size:15px;
+  font-weight: 500;
+  color:white;
+  height:45px;
+  width:50%;
+  border: none;
+  border-radius: 30px;
+  background: black;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  }
+  
+  .submit:hover{
+  background: #0ef;
+  
+  
+  }
+
+.inputfile{ 
+    border: 2px solid black;
+    border-radius: 50px;
+    padding:2px;
+    font-size:15px;
+    
+}
+
+.inputs{
+  position: relative;
+}
+
+.urlinput{
+  position: relative;
+  width:95%;
+  height:40px;
+  color: #000000;
+  border-radius: 20px;
+}
+
+.plimg1{
+  position: absolute;
+  left:50px;
+  bottom:200px;
+
+}
+
+.plimg2{
+  position: absolute;
+  right:-20px;
+  top:400px;
+  height:500px;
+}
+
+/*-----------------*/
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #800080 0%, 
+    #E90207 46%, 
+    #ff8c00 100%);
+}
+.glass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.glass li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    animation: spin 5s linear infinite;
+    bottom: -150px;
+}
+.glass li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+}
+.glass li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+.glass li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+.glass li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+.glass li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+.glass li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+.glass li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+.glass li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+.glass li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+.glass li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+@keyframes spin {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins','sans-serif';
+  }
+
+:root{
+    --bg-color:black;
+    --text-color:white;
+}
+html {
+   
+    overflow-x:hidden;
+  }
+
+section{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top:100px;
+    height: 1000px;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    overflow-y: hidden;
+}
+
+body{
+  background:linear-gradient(118.98deg, #000000 -2.11%, #6737C1 63.58%);
+}
+
+.logo {
+    font-size: 2.5rem;
+    color:black;
+    font-weight:900;
+    cursor:default;
+  }
+
+.logoimg {
+    position: absolute;
+    width: 88px;
+    height: 81px;
+    left:50px;
+    top: calc(50% - 81px/2 - 0.5px);
+    z-index: 30;
+}
+  
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 2rem 9%;
+    background:#c4dcff;
+    height:100px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+  }
+
+  .navbar a {
+    font-size: 1.5rem;
+    color:black;
+    margin-left: 3.5rem;
+    transition: .3s;
+    padding: right 30px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color:lightseagreen;
+    transform: scale(0.2);
+    text-shadow: 2rem;
+
+  }
+
+/*----------------navbar------------------*/
+.homecontent{
+  background:linear-gradient(#1845ad,#23a2f6);
+}
+
+.group-icon4 {
+  position: absolute;
+left: 1100px;
+top: 100px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.untitled00-1-icon3 {
+  position: absolute;
+  top: calc(50% - 41px);
+  left: 33px;
+  width: 88px;
+  height: 81px;
+  object-fit: cover;
+}
+
+.home-content{
+  padding: 20px 20px 20px 20px;
+  overflow-x: wrap;
+}
+
+.headofhome{
+  position: absolute;
+  top:300px;
+  left: 100px;
+  font-weight: bolder;
+  font-size: 75px;
+}
+
+.content{
+  position: absolute;
+  top: 420px;
+  left: 110px;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 50%;
+  overflow-x: wrap;
+}
+
+.start{
+  position: absolute;
+  top: 600px;
+  left: 110px;
+  font-size:15px;
+  padding-left: 40px;
+  padding-top: 10px;
+font-weight: bolder;
+font-size: larger;
+color:black;
+height:45px;
+width:200px;
+border-radius: 30px;
+background:white;
+box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.13);
+cursor: pointer;
+transition: .3s ease-in-out;
+}
+
+.mask-group-icon{
+  position: absolute;
+  top:500px;
+  left:260px;
+
+}
+
+.start:hover{
+  transform: scale(1.2);
+  box-shadow: 3px 3px 3px 3px black;
+}
+
+.shape{
+  background:linear-gradient(#1845ad,#23a2f6) ;
+  width: 1000px;
+  height: 100%;
+  position: absolute;
+  top:500px;
+  left:-400px;
+  border-radius: 50%;
+  z-index: -1;
+}
+/*.shape:last-child{
+  background: linear-gradient(right,#ff512f,#f09819);
+  position: absolute;
+  right:-30px;
+  bottom:-80px;
+}*/
+
+.bigshape{
+  width: 2000px;
+  height: 100%;
+  background:linear-gradient(#1845ad,#23a2f6);
+  position: absolute;
+  top: -200px;
+  left:700px;
+  border-radius: 50%;
+  z-index:-1;
+}
+
+.plan-a-item {
+  
+box-sizing: border-box;
+position: absolute;
+width: 298px;
+height: 655px;
+left: 1300px;
+top: 100px;
+border: 3px dashed #FFFFFF;
+border-radius: 50%;
+}
+
+
+.plan-a-child{
+box-sizing: border-box;
+position: absolute;
+width: 695px;
+height: 188px;
+left: 1100px;
+top: 376px;
+border: 3px dashed #FFFFFF;
+border-radius: 50%;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}

@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins','sans-serif';
+  }
+
+:root{
+    --bg-color:linear-gradient(118.98deg, #000000 -2.11%, #6737C1 63.58%);
+    --text-color:white;
+}
+html {
+   
+    overflow-x:hidden;
+  }
+
+section{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top:120px;
+    height: 919px;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+body{
+     background-image: url(/static/images/blurry-gradient-haikei.png);
+}
+
+.logo {
+    font-size: 2.5rem;
+    color:black;
+    font-weight:900;
+    cursor:default;
+  }
+
+.logoimg {
+    position: absolute;
+    width: 88px;
+    height: 81px;
+    left:50px;
+    top: calc(50% - 81px/2 - 0.5px);
+    z-index: 30;
+}
+  
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 2rem 9%;
+    background:#c4dcff;
+    height:100px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+  }
+
+  .navbar a {
+    font-size: 1.5rem;
+    color:black;
+    margin-left: 3.5rem;
+    transition: .3s;
+    padding: right 30px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color:lightseagreen;
+    transform: scale(0.2);
+    text-shadow: 2rem;
+
+  }
+
+/* ------------------------navbar----------------*/
+
+
+.signinimg{
+position: absolute;
+width: 763px;
+height: 569px;
+left: 100px;
+top: 150px;
+ z-index: 0;
+}
+
+.signin-con{
+position:absolute;
+width: 500px;
+display: flex;
+flex-direction: column;
+transition: .5s ease-in-out;
+}
+
+
+.form{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 700px;
+height: 500px;
+overflow: hidden;
+top:200px;
+left:1100px;
+z-index: 2;
+background-color:rgba(255,255,255,0.13);
+border-radius: 25px;
+transition: .2s ease-in-out;
+}
+
+.form:hover{
+  transform: scale(1.02);
+  
+}
+
+.top span{
+color: var(--bg-color);
+font-size:medium;
+padding: 10px 0 0 130px;
+}
+
+.top span a{
+font-weight: 500;
+color: var(--bg-color);
+margin-left: 5px;
+text-decoration: underline;
+}
+
+.top h1{
+color: var(--bg-color);
+font-size: 3rem; 
+text-align: center;
+padding: 10px 0 30px 0;
+
+}
+
+.two-forms{
+display: flex;
+gap: 10px;
+}
+
+.field{
+font-size:15px;
+background: rgba(255,255,255,0.2);
+color: #fff;;
+height:50px;
+width:100%;
+padding:0 10px 0 45px;
+border:2px solid black;
+border-radius: 30px;
+outline:none;
+transition: .2s ease; 
+}
+
+
+.field:hover,.field:focus{
+background: black;
+border: 2px solid #0ef;
+transform: scale(1.02);
+
+}
+::-webkit-placeholder{
+color: var(--bg-color);
+}
+
+
+.input-box i{
+position: relative;
+top: -35px;
+left:17px;
+color:#0ef;
+}
+
+.submit{
+font-size:15px;
+font-weight: 500;
+color:white;
+height:45px;
+width:100%;
+border: none;
+border-radius: 30px;
+outline:none;
+background: black;
+cursor: pointer;
+transition: .3s ease-in-out;
+}
+
+.submit:hover{
+background: #0ef;
+
+
+}
+
+.two-col{
+display: flex;
+justify-content: space-between;
+color: var(--bg-color);
+font-size: medium;
+margin-top:10px;
+
+}
+
+.two-col .one{
+display: flex;
+gap:5px;
+}
+
+.two-col a{
+text-decoration: none;
+color:black;
+}
+
+.two-col .two a:hover{
+cursor: pointer;
+text-decoration:underline;
+
+}
+
+.signup-con{
+
+position:absolute;
+width: 500px;
+display: flex;
+flex-direction: column;
+transition: .5s ease-in-out;
+
+}
+
+.Copaste-cookie-plagiarism-container {
+  position: absolute;
+  top: 750px;
+  left: 150px;
+  font-size: 25px;
+  font-weight: bolder;
+  color:black;
+}
+
+
+.result{
+  position: relative;
+  color: red;
+  font-size: small;
+}
